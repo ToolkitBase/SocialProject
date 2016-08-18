@@ -1,0 +1,33 @@
+{
+  'version': 0,
+  'case-sensitive': 'false',
+  'roots': [
+    {
+      'type': 'directory',
+      'name': "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Pods_SocialProject.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "Pods-SocialProject-umbrella.h",
+          'external-contents': "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/Target Support Files/Pods-SocialProject/Pods-SocialProject-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "Pods_SocialProject-Swift.h",
+          'external-contents': "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Pods_SocialProject.framework/Headers/Pods_SocialProject-Swift.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Pods_SocialProject.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SocialProject.build/module.modulemap"
+        }
+      ]
+    }
+  ]
+}

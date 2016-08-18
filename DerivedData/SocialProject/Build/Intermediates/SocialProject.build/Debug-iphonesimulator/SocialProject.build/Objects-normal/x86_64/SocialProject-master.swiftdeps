@@ -1,0 +1,6 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "4a731a3fdc4700f1334bbd0cba13c4b4"
+build_time: [524816409, 164654000]
+inputs:
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/SignInViewController.swift": [524816361, 0]
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/AppDelegate.swift": [524816332, 0]

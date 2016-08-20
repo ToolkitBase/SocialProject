@@ -6,15 +6,15 @@ provides-nominal:
 provides-member:
 - ["C13SocialProject11CustomField", ""]
 provides-dynamic-lookup:
+- "editingRectForBounds"
 - "awakeFromNib"
 - "textRectForBounds"
-- "editingRectForBounds"
 depends-top-level:
-- !private "SHADOW_GRAY"
-- !private "UIColor"
-- "CustomField"
 - "UITextField"
+- "CustomField"
+- !private "SHADOW_GRAY"
 - "CGRect"
+- !private "UIColor"
 depends-member:
 - !private ["Ps9AnyObject", "CGColor"]
 - !private ["Ps9AnyObject", "SHADOW_GRAY"]

@@ -6,15 +6,15 @@ provides-nominal:
 provides-member:
 - ["C13SocialProject8RoundBtn", ""]
 provides-dynamic-lookup:
-- "awakeFromNib"
 - "layoutSubviews"
+- "awakeFromNib"
 depends-top-level:
-- !private "CGSize"
-- "RoundBtn"
-- !private "UIColor"
 - "UIButton"
 - !private "/"
 - !private "SHADOW_GRAY"
+- !private "UIColor"
+- !private "CGSize"
+- "RoundBtn"
 depends-member:
 - !private ["Ps9AnyObject", "CGColor"]
 - !private ["Ps9AnyObject", "CGSize"]

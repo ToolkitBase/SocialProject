@@ -1,0 +1,357 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "CustomField"
+provides-nominal:
+- "C13SocialProject11CustomField"
+provides-member:
+- ["C13SocialProject11CustomField", ""]
+provides-dynamic-lookup:
+- "awakeFromNib"
+- "textRectForBounds"
+- "editingRectForBounds"
+depends-top-level:
+- !private "SHADOW_GRAY"
+- !private "UIColor"
+- "CustomField"
+- "UITextField"
+- "CGRect"
+depends-member:
+- !private ["Ps9AnyObject", "CGColor"]
+- !private ["Ps9AnyObject", "SHADOW_GRAY"]
+- !private ["Ps9AnyObject", "UIColor"]
+- ["Ps9AnyObject", "awakeFromNib"]
+- !private ["Ps9AnyObject", "borderColor"]
+- !private ["Ps9AnyObject", "borderWidth"]
+- ["Ps9AnyObject", "editingRectForBounds"]
+- ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "layer"]
+- ["Ps9AnyObject", "textRectForBounds"]
+- ["Ps9AnyObject", ""]
+- !private ["CSo7CALayer", "borderColor"]
+- !private ["CSo7CALayer", "borderWidth"]
+- !private ["PSo13CAMediaTiming", "borderColor"]
+- !private ["PSo13CAMediaTiming", "borderWidth"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGRect", "insetBy"]
+- !private ["Ps11CVarArgType", "CGColor"]
+- !private ["Ps11CVarArgType", "SHADOW_GRAY"]
+- !private ["Ps11CVarArgType", "UIColor"]
+- ["Ps11CVarArgType", "awakeFromNib"]
+- !private ["Ps11CVarArgType", "borderColor"]
+- !private ["Ps11CVarArgType", "borderWidth"]
+- ["Ps11CVarArgType", "editingRectForBounds"]
+- ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "layer"]
+- ["Ps11CVarArgType", "textRectForBounds"]
+- ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "CGColor"]
+- !private ["Ps28CustomDebugStringConvertible", "SHADOW_GRAY"]
+- !private ["Ps28CustomDebugStringConvertible", "UIColor"]
+- ["Ps28CustomDebugStringConvertible", "awakeFromNib"]
+- !private ["Ps28CustomDebugStringConvertible", "borderColor"]
+- !private ["Ps28CustomDebugStringConvertible", "borderWidth"]
+- ["Ps28CustomDebugStringConvertible", "editingRectForBounds"]
+- ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "layer"]
+- ["Ps28CustomDebugStringConvertible", "textRectForBounds"]
+- ["Ps28CustomDebugStringConvertible", ""]
+- ["C13SocialProject11CustomField", "CGRect"]
+- !private ["C13SocialProject11CustomField", "SHADOW_GRAY"]
+- !private ["C13SocialProject11CustomField", "UIColor"]
+- ["C13SocialProject11CustomField", "awakeFromNib"]
+- ["C13SocialProject11CustomField", "deinit"]
+- ["C13SocialProject11CustomField", "editingRectForBounds"]
+- ["C13SocialProject11CustomField", "init"]
+- !private ["C13SocialProject11CustomField", "layer"]
+- ["C13SocialProject11CustomField", "textRectForBounds"]
+- !private ["Ps23CustomStringConvertible", "CGColor"]
+- !private ["Ps23CustomStringConvertible", "SHADOW_GRAY"]
+- !private ["Ps23CustomStringConvertible", "UIColor"]
+- ["Ps23CustomStringConvertible", "awakeFromNib"]
+- !private ["Ps23CustomStringConvertible", "borderColor"]
+- !private ["Ps23CustomStringConvertible", "borderWidth"]
+- ["Ps23CustomStringConvertible", "editingRectForBounds"]
+- ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "layer"]
+- ["Ps23CustomStringConvertible", "textRectForBounds"]
+- ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "CGColor"]
+- !private ["Ps9Equatable", "SHADOW_GRAY"]
+- !private ["Ps9Equatable", "UIColor"]
+- ["Ps9Equatable", "awakeFromNib"]
+- !private ["Ps9Equatable", "borderColor"]
+- !private ["Ps9Equatable", "borderWidth"]
+- ["Ps9Equatable", "editingRectForBounds"]
+- ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "insetBy"]
+- !private ["Ps9Equatable", "layer"]
+- ["Ps9Equatable", "textRectForBounds"]
+- ["Ps9Equatable", ""]
+- !private ["Ps8Hashable", "CGColor"]
+- !private ["Ps8Hashable", "SHADOW_GRAY"]
+- !private ["Ps8Hashable", "UIColor"]
+- ["Ps8Hashable", "awakeFromNib"]
+- !private ["Ps8Hashable", "borderColor"]
+- !private ["Ps8Hashable", "borderWidth"]
+- ["Ps8Hashable", "editingRectForBounds"]
+- ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "layer"]
+- ["Ps8Hashable", "textRectForBounds"]
+- ["Ps8Hashable", ""]
+- !private ["PSo8NSCoding", "CGColor"]
+- !private ["PSo8NSCoding", "SHADOW_GRAY"]
+- !private ["PSo8NSCoding", "UIColor"]
+- ["PSo8NSCoding", "awakeFromNib"]
+- !private ["PSo8NSCoding", "borderColor"]
+- !private ["PSo8NSCoding", "borderWidth"]
+- ["PSo8NSCoding", "editingRectForBounds"]
+- ["PSo8NSCoding", "init"]
+- !private ["PSo8NSCoding", "layer"]
+- ["PSo8NSCoding", "textRectForBounds"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "CGColor"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["CSo8NSObject", "CGColor"]
+- ["CSo8NSObject", "CGRect"]
+- !private ["CSo8NSObject", "SHADOW_GRAY"]
+- !private ["CSo8NSObject", "UIColor"]
+- ["CSo8NSObject", "awakeFromNib"]
+- !private ["CSo8NSObject", "borderColor"]
+- !private ["CSo8NSObject", "borderWidth"]
+- ["CSo8NSObject", "editingRectForBounds"]
+- ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "layer"]
+- ["CSo8NSObject", "textRectForBounds"]
+- !private ["PSo16NSObjectProtocol", "CGColor"]
+- !private ["PSo16NSObjectProtocol", "SHADOW_GRAY"]
+- !private ["PSo16NSObjectProtocol", "UIColor"]
+- ["PSo16NSObjectProtocol", "awakeFromNib"]
+- !private ["PSo16NSObjectProtocol", "borderColor"]
+- !private ["PSo16NSObjectProtocol", "borderWidth"]
+- ["PSo16NSObjectProtocol", "editingRectForBounds"]
+- ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "layer"]
+- ["PSo16NSObjectProtocol", "textRectForBounds"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "CGColor"]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "SHADOW_GRAY"]
+- !private ["PSo29UIAccessibilityIdentification", "UIColor"]
+- ["PSo29UIAccessibilityIdentification", "awakeFromNib"]
+- ["PSo29UIAccessibilityIdentification", "editingRectForBounds"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "layer"]
+- ["PSo29UIAccessibilityIdentification", "textRectForBounds"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["PSo12UIAppearance", "SHADOW_GRAY"]
+- !private ["PSo12UIAppearance", "UIColor"]
+- ["PSo12UIAppearance", "awakeFromNib"]
+- ["PSo12UIAppearance", "editingRectForBounds"]
+- ["PSo12UIAppearance", "init"]
+- !private ["PSo12UIAppearance", "layer"]
+- ["PSo12UIAppearance", "textRectForBounds"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "SHADOW_GRAY"]
+- !private ["PSo21UIAppearanceContainer", "UIColor"]
+- ["PSo21UIAppearanceContainer", "awakeFromNib"]
+- ["PSo21UIAppearanceContainer", "editingRectForBounds"]
+- ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo21UIAppearanceContainer", "layer"]
+- ["PSo21UIAppearanceContainer", "textRectForBounds"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["CSo7UIColor", "CGColor"]
+- !private ["CSo7UIColor", "init"]
+- ["CSo9UIControl", "CGRect"]
+- !private ["CSo9UIControl", "SHADOW_GRAY"]
+- !private ["CSo9UIControl", "UIColor"]
+- ["CSo9UIControl", "awakeFromNib"]
+- ["CSo9UIControl", "editingRectForBounds"]
+- ["CSo9UIControl", "init"]
+- !private ["CSo9UIControl", "layer"]
+- ["CSo9UIControl", "textRectForBounds"]
+- !private ["PSo17UICoordinateSpace", "SHADOW_GRAY"]
+- !private ["PSo17UICoordinateSpace", "UIColor"]
+- ["PSo17UICoordinateSpace", "awakeFromNib"]
+- ["PSo17UICoordinateSpace", "editingRectForBounds"]
+- ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo17UICoordinateSpace", "layer"]
+- ["PSo17UICoordinateSpace", "textRectForBounds"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "SHADOW_GRAY"]
+- !private ["PSo13UIDynamicItem", "UIColor"]
+- ["PSo13UIDynamicItem", "awakeFromNib"]
+- ["PSo13UIDynamicItem", "editingRectForBounds"]
+- ["PSo13UIDynamicItem", "init"]
+- !private ["PSo13UIDynamicItem", "layer"]
+- ["PSo13UIDynamicItem", "textRectForBounds"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "SHADOW_GRAY"]
+- !private ["PSo18UIFocusEnvironment", "UIColor"]
+- ["PSo18UIFocusEnvironment", "awakeFromNib"]
+- ["PSo18UIFocusEnvironment", "editingRectForBounds"]
+- ["PSo18UIFocusEnvironment", "init"]
+- !private ["PSo18UIFocusEnvironment", "layer"]
+- ["PSo18UIFocusEnvironment", "textRectForBounds"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["PSo10UIKeyInput", "SHADOW_GRAY"]
+- !private ["PSo10UIKeyInput", "UIColor"]
+- ["PSo10UIKeyInput", "awakeFromNib"]
+- ["PSo10UIKeyInput", "editingRectForBounds"]
+- ["PSo10UIKeyInput", "init"]
+- !private ["PSo10UIKeyInput", "layer"]
+- ["PSo10UIKeyInput", "textRectForBounds"]
+- ["PSo10UIKeyInput", ""]
+- ["CSo11UIResponder", "CGRect"]
+- !private ["CSo11UIResponder", "SHADOW_GRAY"]
+- !private ["CSo11UIResponder", "UIColor"]
+- ["CSo11UIResponder", "awakeFromNib"]
+- ["CSo11UIResponder", "editingRectForBounds"]
+- ["CSo11UIResponder", "init"]
+- !private ["CSo11UIResponder", "layer"]
+- ["CSo11UIResponder", "textRectForBounds"]
+- ["CSo11UITextField", "CGRect"]
+- !private ["CSo11UITextField", "SHADOW_GRAY"]
+- !private ["CSo11UITextField", "UIColor"]
+- ["CSo11UITextField", "awakeFromNib"]
+- ["CSo11UITextField", "editingRectForBounds"]
+- ["CSo11UITextField", "init"]
+- !private ["CSo11UITextField", "layer"]
+- ["CSo11UITextField", "textRectForBounds"]
+- ["CSo11UITextField", ""]
+- !private ["PSo11UITextInput", "SHADOW_GRAY"]
+- !private ["PSo11UITextInput", "UIColor"]
+- ["PSo11UITextInput", "awakeFromNib"]
+- ["PSo11UITextInput", "editingRectForBounds"]
+- ["PSo11UITextInput", "init"]
+- !private ["PSo11UITextInput", "layer"]
+- ["PSo11UITextInput", "textRectForBounds"]
+- ["PSo11UITextInput", ""]
+- !private ["PSo17UITextInputTraits", "SHADOW_GRAY"]
+- !private ["PSo17UITextInputTraits", "UIColor"]
+- ["PSo17UITextInputTraits", "awakeFromNib"]
+- ["PSo17UITextInputTraits", "editingRectForBounds"]
+- ["PSo17UITextInputTraits", "init"]
+- !private ["PSo17UITextInputTraits", "layer"]
+- ["PSo17UITextInputTraits", "textRectForBounds"]
+- ["PSo17UITextInputTraits", ""]
+- !private ["PSo18UITraitEnvironment", "SHADOW_GRAY"]
+- !private ["PSo18UITraitEnvironment", "UIColor"]
+- ["PSo18UITraitEnvironment", "awakeFromNib"]
+- ["PSo18UITraitEnvironment", "editingRectForBounds"]
+- ["PSo18UITraitEnvironment", "init"]
+- !private ["PSo18UITraitEnvironment", "layer"]
+- ["PSo18UITraitEnvironment", "textRectForBounds"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGRect"]
+- !private ["CSo6UIView", "SHADOW_GRAY"]
+- !private ["CSo6UIView", "UIColor"]
+- ["CSo6UIView", "awakeFromNib"]
+- ["CSo6UIView", "editingRectForBounds"]
+- ["CSo6UIView", "init"]
+- !private ["CSo6UIView", "layer"]
+- ["CSo6UIView", "textRectForBounds"]
+- !private ["Ps24_ColorLiteralConvertible", "CGColor"]
+- !private ["Ps24_ColorLiteralConvertible", "init"]
+- !private ["Ps12_Reflectable", "SHADOW_GRAY"]
+- !private ["Ps12_Reflectable", "UIColor"]
+- ["Ps12_Reflectable", "awakeFromNib"]
+- ["Ps12_Reflectable", "editingRectForBounds"]
+- ["Ps12_Reflectable", "init"]
+- !private ["Ps12_Reflectable", "insetBy"]
+- !private ["Ps12_Reflectable", "layer"]
+- ["Ps12_Reflectable", "textRectForBounds"]
+- ["Ps12_Reflectable", ""]
+depends-nominal:
+- "Ps9AnyObject"
+- !private "CSo7CALayer"
+- !private "PSo13CAMediaTiming"
+- !private "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- "Ps11CVarArgType"
+- "Ps28CustomDebugStringConvertible"
+- "C13SocialProject11CustomField"
+- "Ps23CustomStringConvertible"
+- "Ps9Equatable"
+- "Ps8Hashable"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- !private "CSo7UIColor"
+- "CSo9UIControl"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "PSo10UIKeyInput"
+- "CSo11UIResponder"
+- "CSo11UITextField"
+- "PSo11UITextInput"
+- "PSo17UITextInputTraits"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- !private "Ps24_ColorLiteralConvertible"
+- "Ps12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Foundation.swiftmodule"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/Firebase/Analytics/Sources/module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalyticsConfiguration.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRUserPropertyNames.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRParameterNames.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIREventNames.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRAnalytics+AppDelegate.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FirebaseAnalytics.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Modules/module.modulemap"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRUserInfo.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRUser.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuthCredential.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuthErrors.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRAuth.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRTwitterAuthProvider.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRGoogleAuthProvider.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRGitHubAuthProvider.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIRFacebookAuthProvider.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FIREmailPasswordAuthProvider.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Headers/FirebaseAuth.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAuth/Frameworks/frameworks/FirebaseAuth.framework/Modules/module.modulemap"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRServerValue.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRTransactionResult.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRMutableData.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataSnapshot.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDataEventType.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseQuery.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabaseReference.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FIRDatabase.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Headers/FirebaseDatabase.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseDatabase/Frameworks/FirebaseDatabase.framework/Modules/module.modulemap"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FIRInstanceID.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Headers/FirebaseInstanceID.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseInstanceID/Frameworks/frameworks/FirebaseInstanceID.framework/Modules/module.modulemap"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTaskSnapshot.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageUploadTask.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageReference.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageMetadata.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageTask.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageObservableTask.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageDownloadTask.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorageConstants.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FIRStorage.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/Firebase/Analytics/Sources/Firebase.h"
+interface-hash: "56f7b9ccee5e9d9998837fb7885095d6"

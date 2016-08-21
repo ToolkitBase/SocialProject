@@ -12,5 +12,6 @@ pod 'Firebase/Auth'
 pod 'Firebase/Database'
 pod 'Firebase/Storage'
 pod 'FBSDKLoginKit'
+pod 'SwiftKeychainWrapper', '~> 2.0'
 
 end

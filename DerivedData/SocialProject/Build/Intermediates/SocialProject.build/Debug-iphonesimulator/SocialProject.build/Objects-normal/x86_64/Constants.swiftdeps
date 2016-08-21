@@ -1,14 +1,17 @@
 ### Swift dependencies file v0 ###
 provides-top-level:
 - "SHADOW_GRAY"
+- "KEY_UID"
 provides-nominal:
 provides-member:
 provides-dynamic-lookup:
 depends-top-level:
+- "KEY_UID"
+- "StringLiteralType"
+- "SHADOW_GRAY"
+- "/"
 - "CGFloat"
 - "FloatLiteralType"
-- "/"
-- "SHADOW_GRAY"
 depends-member:
 - ["V12CoreGraphics7CGFloat", "deinit"]
 depends-nominal:
@@ -122,4 +125,9 @@ depends-external:
 - "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
 - "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/Firebase/Analytics/Sources/Firebase.h"
-interface-hash: "8c2eb9af2da775440ae4c987dfe30fde"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/SwiftKeychainWrapper.swiftmodule/x86_64.swiftmodule"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-umbrella.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules/module.modulemap"
+interface-hash: "d6e209de0d96e253bf7bb62051d6c4f5"

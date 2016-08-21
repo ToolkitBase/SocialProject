@@ -1,11 +1,12 @@
 version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
-options: "98546e9aaff1c48af060d6345c43ed8f"
-build_time: [525122320, 792502000]
+options: "587a2787b6c3a2bf82b558934dfeef4d"
+build_time: [525135060, 182864000]
 inputs:
   "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/CustomView.swift": [525047036, 0]
   "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/RoundBtn.swift": [525047035, 0]
-  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/SignInViewController.swift": [525078031, 0]
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/SignInViewController.swift": [525132758, 0]
   "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/CustomBtn.swift": [525047035, 0]
   "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/CustomField.swift": [525047012, 0]
   "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/AppDelegate.swift": [525058091, 0]
-  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/Constants.swift": [525045582, 0]
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/FeedViewController.swift": [525135059, 0]
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/Constants.swift": [525132193, 0]

@@ -10,11 +10,11 @@ provides-dynamic-lookup:
 - "awakeFromNib"
 - "editingRectForBounds"
 depends-top-level:
-- "CustomField"
-- !private "SHADOW_GRAY"
+- "UITextField"
 - "CGRect"
 - !private "UIColor"
-- "UITextField"
+- !private "SHADOW_GRAY"
+- "CustomField"
 depends-member:
 - !private ["Ps9AnyObject", "CGColor"]
 - !private ["Ps9AnyObject", "SHADOW_GRAY"]

@@ -8,11 +8,11 @@ provides-member:
 provides-dynamic-lookup:
 - "awakeFromNib"
 depends-top-level:
+- !private "SHADOW_GRAY"
+- !private "UIColor"
 - "CustomBtn"
 - !private "CGSize"
 - "UIButton"
-- !private "UIColor"
-- !private "SHADOW_GRAY"
 depends-member:
 - !private ["Ps9AnyObject", "CGColor"]
 - !private ["Ps9AnyObject", "CGSize"]

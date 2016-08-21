@@ -329,6 +329,38 @@
           'external-contents': "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Intermediates/Pods.build/Debug-iphonesimulator/Pods-SocialProject.build/module.modulemap"
         }
       ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "SwiftKeychainWrapper-Swift.h",
+          'external-contents': "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Headers/SwiftKeychainWrapper-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftKeychainWrapper-umbrella.h",
+          'external-contents': "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/Target Support Files/SwiftKeychainWrapper/SwiftKeychainWrapper-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "SwiftKeychainWrapper.h",
+          'external-contents': "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/SwiftKeychainWrapper/SwiftKeychainWrapper/SwiftKeychainWrapper.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/SwiftKeychainWrapper/SwiftKeychainWrapper.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Intermediates/Pods.build/Debug-iphonesimulator/SwiftKeychainWrapper.build/module.modulemap"
+        }
+      ]
     }
   ]
 }

@@ -11,6 +11,7 @@
 		43E5387A1D690B6900B87817 /* RoundBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E538791D690B6900B87817 /* RoundBtn.swift */; };
 		43E5387C1D690D4600B87817 /* CustomField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E5387B1D690D4600B87817 /* CustomField.swift */; };
 		43E5387E1D690FA000B87817 /* CustomBtn.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E5387D1D690FA000B87817 /* CustomBtn.swift */; };
+		43E5CB6E1D6A5C9C00779792 /* FeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E5CB6D1D6A5C9C00779792 /* FeedViewController.swift */; };
 		43E732751D68050B009865DB /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43E732741D68050B009865DB /* CustomView.swift */; };
 		43F09FD11D65876B00BB87FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F09FD01D65876B00BB87FC /* AppDelegate.swift */; };
 		43F09FD31D65876B00BB87FC /* SignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43F09FD21D65876B00BB87FC /* SignInViewController.swift */; };
@@ -28,6 +29,7 @@
 		43E5387B1D690D4600B87817 /* CustomField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomField.swift; sourceTree = "<group>"; };
 		43E5387D1D690FA000B87817 /* CustomBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBtn.swift; sourceTree = "<group>"; };
 		43E5387F1D693D7300B87817 /* SocialProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SocialProject.entitlements; sourceTree = "<group>"; };
+		43E5CB6D1D6A5C9C00779792 /* FeedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FeedViewController.swift; sourceTree = "<group>"; };
 		43E732741D68050B009865DB /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		43F09FCD1D65876B00BB87FC /* SocialProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F09FD01D65876B00BB87FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -127,6 +129,7 @@
 			isa = PBXGroup;
 			children = (
 				43F09FD21D65876B00BB87FC /* SignInViewController.swift */,
+				43E5CB6D1D6A5C9C00779792 /* FeedViewController.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -275,6 +278,7 @@
 				43E5387E1D690FA000B87817 /* CustomBtn.swift in Sources */,
 				43E5387C1D690D4600B87817 /* CustomField.swift in Sources */,
 				43F09FD11D65876B00BB87FC /* AppDelegate.swift in Sources */,
+				43E5CB6E1D6A5C9C00779792 /* FeedViewController.swift in Sources */,
 				43E538781D6908B500B87817 /* Constants.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

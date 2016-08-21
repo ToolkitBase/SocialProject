@@ -10,6 +10,7 @@ import UIKit
 import FBSDKCoreKit
 import FBSDKLoginKit
 import Firebase
+import SwiftKeychainWrapper
 
 class SignInViewController: UIViewController {
     
@@ -24,12 +25,18 @@ class SignInViewController: UIViewController {
             FIRAuth.auth()?.signInWithEmail(email, password: pwd, completion: { (user, error) in
                 if error == nil {
                     print("User authenticated with Firebase")
+                    if let user = user {
+                        self.completeSignIn(user.uid)
+                    }
                 } else {
                     FIRAuth.auth()?.createUserWithEmail(email, password: pwd, completion: { (user, error) in
                         if error != nil {
                             print("Unable to authenticate with Firebase using email")
                         } else {
                             print("Successfully authenticated with Firebase")
+                            if let user = user {
+                                self.completeSignIn(user.uid)
+                            }
                         }
                     })
                 }
@@ -62,13 +69,40 @@ class SignInViewController: UIViewController {
                 print("Unable to authenticate with Firebase - \(error)")
             } else {
                 print("Successfully authenticated with Firebase")
+                if let user = user {
+                    self.completeSignIn(user.uid)
+                }
+                
             }
         })
+    }
+    
+    func completeSignIn(id: String) {
+        
+        //let keychainResult =
+        KeychainWrapper.defaultKeychainWrapper().setString(id, forKey: KEY_UID)
+        performSegueWithIdentifier("goToFeed", sender: nil)
+       // print("Data saved to keychain \(keychainResult)")
+        
     }
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+       //view did load cannot load segues.
+        
+        
+    }
+    
+    override func viewDidAppear(animated: Bool) {
+        
+        //check if UID in keychain
+        
+        if let _ = KeychainWrapper.defaultKeychainWrapper().stringForKey(KEY_UID) {
+            
+            performSegueWithIdentifier("goToFeed", sender: nil)
+        
+        }
     }
 
     override func didReceiveMemoryWarning() {

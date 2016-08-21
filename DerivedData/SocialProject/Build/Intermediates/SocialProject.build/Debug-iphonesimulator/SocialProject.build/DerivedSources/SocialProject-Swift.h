@@ -143,6 +143,15 @@ SWIFT_CLASS("_TtC13SocialProject10CustomView")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSBundle;
+
+SWIFT_CLASS("_TtC13SocialProject18FeedViewController")
+@interface FeedViewController : UIViewController
+- (IBAction)signOut:(id _Nonnull)sender;
+- (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC13SocialProject8RoundBtn")
 @interface RoundBtn : UIButton
@@ -153,7 +162,6 @@ SWIFT_CLASS("_TtC13SocialProject8RoundBtn")
 @end
 
 @class FIRAuthCredential;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC13SocialProject20SignInViewController")
 @interface SignInViewController : UIViewController
@@ -162,7 +170,9 @@ SWIFT_CLASS("_TtC13SocialProject20SignInViewController")
 - (IBAction)signIn:(id _Nonnull)sender;
 - (IBAction)facebookBtnTapped:(id _Nonnull)sender;
 - (void)firebaseAuth:(FIRAuthCredential * _Nonnull)credential;
+- (void)completeSignIn:(NSString * _Nonnull)id;
 - (void)viewDidLoad;
+- (void)viewDidAppear:(BOOL)animated;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

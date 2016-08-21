@@ -1,0 +1,11 @@
+version: "Apple Swift version 2.2 (swiftlang-703.0.18.8 clang-703.0.31)"
+options: "044a7d40af90ee095165a073abcff126"
+build_time: [525058283, 190867000]
+inputs:
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/CustomView.swift": [525047036, 0]
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/RoundBtn.swift": [525047035, 0]
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/SignInViewController.swift": [525057142, 0]
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/CustomBtn.swift": [525047035, 0]
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/CustomField.swift": [525047012, 0]
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/AppDelegate.swift": [525058091, 0]
+  "/Users/markwong/Desktop/WorkExamples/SocialProject/SocialProject/Constants.swift": [525045582, 0]

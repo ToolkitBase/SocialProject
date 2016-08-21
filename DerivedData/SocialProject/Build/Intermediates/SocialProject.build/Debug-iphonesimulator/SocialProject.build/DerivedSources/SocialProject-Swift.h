@@ -101,6 +101,7 @@ typedef int swift_int4  __attribute__((__ext_vector_type__(4)));
 @class UIWindow;
 @class UIApplication;
 @class NSObject;
+@class NSURL;
 
 SWIFT_CLASS("_TtC13SocialProject11AppDelegate")
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
@@ -111,6 +112,7 @@ SWIFT_CLASS("_TtC13SocialProject11AppDelegate")
 - (void)applicationWillEnterForeground:(UIApplication * _Nonnull)application;
 - (void)applicationDidBecomeActive:(UIApplication * _Nonnull)application;
 - (void)applicationWillTerminate:(UIApplication * _Nonnull)application;
+- (BOOL)application:(UIApplication * _Nonnull)application openURL:(NSURL * _Nonnull)url sourceApplication:(NSString * _Nullable)sourceApplication annotation:(id _Nonnull)annotation;
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
@@ -150,10 +152,16 @@ SWIFT_CLASS("_TtC13SocialProject8RoundBtn")
 - (nullable instancetype)initWithCoder:(NSCoder * _Nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class FIRAuthCredential;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC13SocialProject20SignInViewController")
 @interface SignInViewController : UIViewController
+@property (nonatomic, weak) IBOutlet CustomField * _Null_unspecified emailField;
+@property (nonatomic, weak) IBOutlet CustomField * _Null_unspecified pwdField;
+- (IBAction)signIn:(id _Nonnull)sender;
+- (IBAction)facebookBtnTapped:(id _Nonnull)sender;
+- (void)firebaseAuth:(FIRAuthCredential * _Nonnull)credential;
 - (void)viewDidLoad;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * _Nullable)nibNameOrNil bundle:(NSBundle * _Nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;

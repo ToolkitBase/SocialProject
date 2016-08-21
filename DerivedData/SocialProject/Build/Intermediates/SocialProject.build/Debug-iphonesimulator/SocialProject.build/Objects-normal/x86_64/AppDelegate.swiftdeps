@@ -6,25 +6,30 @@ provides-nominal:
 provides-member:
 - ["C13SocialProject11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillEnterForeground"
-- "window"
-- "applicationDidBecomeActive"
-- "applicationDidEnterBackground"
-- "application"
-- "applicationWillTerminate"
 - "applicationWillResignActive"
+- "applicationDidEnterBackground"
+- "window"
+- "applicationWillEnterForeground"
+- "applicationDidBecomeActive"
+- "applicationWillTerminate"
+- "application"
+- "application"
 depends-top-level:
-- "AppDelegate"
-- "UIApplicationDelegate"
-- !private "BooleanLiteralType"
 - "UIApplication"
-- "UIWindow"
-- "Bool"
-- !private "FIRApp"
-- "UIResponder"
-- "NSObject"
+- "NSURL"
+- "AppDelegate"
 - "AnyObject"
+- !private "FBSDKApplicationDelegate"
+- "UIApplicationDelegate"
+- "NSObject"
+- !private "FIRApp"
+- "UIWindow"
+- "String"
+- "Bool"
+- "UIResponder"
+- !private "BooleanLiteralType"
 depends-member:
+- !private ["Ps9AnyObject", "FBSDKApplicationDelegate"]
 - !private ["Ps9AnyObject", "FIRApp"]
 - ["Ps9AnyObject", "application"]
 - ["Ps9AnyObject", "applicationDidBecomeActive"]
@@ -40,12 +45,16 @@ depends-member:
 - ["Ps9AnyObject", "applicationWillTerminate"]
 - !private ["Ps9AnyObject", "configure"]
 - ["Ps9AnyObject", "init"]
+- !private ["Ps9AnyObject", "sharedInstance"]
 - ["Ps9AnyObject", "window"]
 - ["Ps9AnyObject", ""]
 - ["C13SocialProject11AppDelegate", "AnyObject"]
 - ["C13SocialProject11AppDelegate", "Bool"]
+- !private ["C13SocialProject11AppDelegate", "FBSDKApplicationDelegate"]
 - !private ["C13SocialProject11AppDelegate", "FIRApp"]
 - ["C13SocialProject11AppDelegate", "NSObject"]
+- ["C13SocialProject11AppDelegate", "NSURL"]
+- ["C13SocialProject11AppDelegate", "String"]
 - ["C13SocialProject11AppDelegate", "UIApplication"]
 - ["C13SocialProject11AppDelegate", "UIWindow"]
 - ["C13SocialProject11AppDelegate", "application"]
@@ -63,6 +72,7 @@ depends-member:
 - ["C13SocialProject11AppDelegate", "deinit"]
 - ["C13SocialProject11AppDelegate", "init"]
 - ["C13SocialProject11AppDelegate", "window"]
+- !private ["Ps11CVarArgType", "FBSDKApplicationDelegate"]
 - !private ["Ps11CVarArgType", "FIRApp"]
 - ["Ps11CVarArgType", "application"]
 - ["Ps11CVarArgType", "applicationDidBecomeActive"]
@@ -78,8 +88,10 @@ depends-member:
 - ["Ps11CVarArgType", "applicationWillTerminate"]
 - !private ["Ps11CVarArgType", "configure"]
 - ["Ps11CVarArgType", "init"]
+- !private ["Ps11CVarArgType", "sharedInstance"]
 - ["Ps11CVarArgType", "window"]
 - ["Ps11CVarArgType", ""]
+- !private ["Ps28CustomDebugStringConvertible", "FBSDKApplicationDelegate"]
 - !private ["Ps28CustomDebugStringConvertible", "FIRApp"]
 - ["Ps28CustomDebugStringConvertible", "application"]
 - ["Ps28CustomDebugStringConvertible", "applicationDidBecomeActive"]
@@ -95,8 +107,10 @@ depends-member:
 - ["Ps28CustomDebugStringConvertible", "applicationWillTerminate"]
 - !private ["Ps28CustomDebugStringConvertible", "configure"]
 - ["Ps28CustomDebugStringConvertible", "init"]
+- !private ["Ps28CustomDebugStringConvertible", "sharedInstance"]
 - ["Ps28CustomDebugStringConvertible", "window"]
 - ["Ps28CustomDebugStringConvertible", ""]
+- !private ["Ps23CustomStringConvertible", "FBSDKApplicationDelegate"]
 - !private ["Ps23CustomStringConvertible", "FIRApp"]
 - ["Ps23CustomStringConvertible", "application"]
 - ["Ps23CustomStringConvertible", "applicationDidBecomeActive"]
@@ -112,8 +126,10 @@ depends-member:
 - ["Ps23CustomStringConvertible", "applicationWillTerminate"]
 - !private ["Ps23CustomStringConvertible", "configure"]
 - ["Ps23CustomStringConvertible", "init"]
+- !private ["Ps23CustomStringConvertible", "sharedInstance"]
 - ["Ps23CustomStringConvertible", "window"]
 - ["Ps23CustomStringConvertible", ""]
+- !private ["Ps9Equatable", "FBSDKApplicationDelegate"]
 - !private ["Ps9Equatable", "FIRApp"]
 - ["Ps9Equatable", "application"]
 - ["Ps9Equatable", "applicationDidBecomeActive"]
@@ -129,9 +145,13 @@ depends-member:
 - ["Ps9Equatable", "applicationWillTerminate"]
 - !private ["Ps9Equatable", "configure"]
 - ["Ps9Equatable", "init"]
+- !private ["Ps9Equatable", "sharedInstance"]
 - ["Ps9Equatable", "window"]
 - ["Ps9Equatable", ""]
+- !private ["CSo24FBSDKApplicationDelegate", "application"]
+- !private ["CSo24FBSDKApplicationDelegate", "sharedInstance"]
 - !private ["CSo6FIRApp", "configure"]
+- !private ["Ps8Hashable", "FBSDKApplicationDelegate"]
 - !private ["Ps8Hashable", "FIRApp"]
 - ["Ps8Hashable", "application"]
 - ["Ps8Hashable", "applicationDidBecomeActive"]
@@ -147,12 +167,16 @@ depends-member:
 - ["Ps8Hashable", "applicationWillTerminate"]
 - !private ["Ps8Hashable", "configure"]
 - ["Ps8Hashable", "init"]
+- !private ["Ps8Hashable", "sharedInstance"]
 - ["Ps8Hashable", "window"]
 - ["Ps8Hashable", ""]
 - ["CSo8NSObject", "AnyObject"]
 - ["CSo8NSObject", "Bool"]
+- !private ["CSo8NSObject", "FBSDKApplicationDelegate"]
 - !private ["CSo8NSObject", "FIRApp"]
 - ["CSo8NSObject", "NSObject"]
+- ["CSo8NSObject", "NSURL"]
+- ["CSo8NSObject", "String"]
 - ["CSo8NSObject", "UIApplication"]
 - ["CSo8NSObject", "UIWindow"]
 - ["CSo8NSObject", "application"]
@@ -169,7 +193,9 @@ depends-member:
 - ["CSo8NSObject", "applicationWillTerminate"]
 - !private ["CSo8NSObject", "configure"]
 - ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "sharedInstance"]
 - ["CSo8NSObject", "window"]
+- !private ["PSo16NSObjectProtocol", "FBSDKApplicationDelegate"]
 - !private ["PSo16NSObjectProtocol", "FIRApp"]
 - ["PSo16NSObjectProtocol", "application"]
 - ["PSo16NSObjectProtocol", "applicationDidBecomeActive"]
@@ -185,8 +211,10 @@ depends-member:
 - ["PSo16NSObjectProtocol", "applicationWillTerminate"]
 - !private ["PSo16NSObjectProtocol", "configure"]
 - ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "sharedInstance"]
 - ["PSo16NSObjectProtocol", "window"]
 - ["PSo16NSObjectProtocol", ""]
+- !private ["PSo21UIApplicationDelegate", "FBSDKApplicationDelegate"]
 - !private ["PSo21UIApplicationDelegate", "FIRApp"]
 - ["PSo21UIApplicationDelegate", "application"]
 - ["PSo21UIApplicationDelegate", "applicationDidBecomeActive"]
@@ -204,8 +232,11 @@ depends-member:
 - ["PSo21UIApplicationDelegate", ""]
 - ["CSo11UIResponder", "AnyObject"]
 - ["CSo11UIResponder", "Bool"]
+- !private ["CSo11UIResponder", "FBSDKApplicationDelegate"]
 - !private ["CSo11UIResponder", "FIRApp"]
 - ["CSo11UIResponder", "NSObject"]
+- ["CSo11UIResponder", "NSURL"]
+- ["CSo11UIResponder", "String"]
 - ["CSo11UIResponder", "UIApplication"]
 - ["CSo11UIResponder", "UIWindow"]
 - ["CSo11UIResponder", "application"]
@@ -230,6 +261,7 @@ depends-nominal:
 - "Ps28CustomDebugStringConvertible"
 - "Ps23CustomStringConvertible"
 - "Ps9Equatable"
+- !private "CSo24FBSDKApplicationDelegate"
 - !private "CSo6FIRApp"
 - "Ps8Hashable"
 - "CSo8NSObject"
@@ -247,6 +279,56 @@ depends-external:
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/ObjectiveC.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreGraphics.swiftmodule"
 - "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphonesimulator/x86_64/CoreImage.swiftmodule"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTaskCompletionSource.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFTask+Exceptions.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFExecutor.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenSource.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationTokenRegistration.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFCancellationToken.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFWebViewAppLinkResolver.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFURL.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFMeasurementEvent.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkTarget.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererView.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkReturnToRefererController.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkResolving.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLinkNavigation.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/BFAppLink.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Headers/Bolts-umbrella.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/Bolts/Bolts.framework/Modules/module.modulemap"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfilePictureView.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKProfile.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMutableCopying.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphErrorRecoveryProcessor.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKUtility.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKTestUsersManager.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKSettings.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestDataAttachment.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequest.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKConstants.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKButton.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkUtility.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppLinkResolver.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKApplicationDelegate.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAppEvents.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKMacros.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKGraphRequestConnection.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCopying.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKAccessToken.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Headers/FBSDKCoreKit-umbrella.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKCoreKit/FBSDKCoreKit.framework/Modules/module.modulemap"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginTooltipView.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManagerLoginResult.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginConstants.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKTooltipView.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginManager.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginButton.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Headers/FBSDKLoginKit-umbrella.h"
+- "/Users/markwong/Desktop/WorkExamples/SocialProject/DerivedData/SocialProject/Build/Products/Debug-iphonesimulator/FBSDKLoginKit/FBSDKLoginKit.framework/Modules/module.modulemap"
 - "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIROptions.h"
 - "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRConfiguration.h"
 - "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseAnalytics/Frameworks/frameworks/FirebaseAnalytics.framework/Headers/FIRApp.h"
@@ -295,4 +377,4 @@ depends-external:
 - "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Headers/FirebaseStorage.h"
 - "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/FirebaseStorage/Frameworks/FirebaseStorage.framework/Modules/module.modulemap"
 - "/Users/markwong/Desktop/WorkExamples/SocialProject/Pods/Firebase/Analytics/Sources/Firebase.h"
-interface-hash: "ea95070f95b9c19da8fa433e7bcccaf6"
+interface-hash: "f257cf1c3313fa4d17b1a85237702f7a"

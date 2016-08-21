@@ -27,6 +27,7 @@
 		43E538791D690B6900B87817 /* RoundBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RoundBtn.swift; sourceTree = "<group>"; };
 		43E5387B1D690D4600B87817 /* CustomField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomField.swift; sourceTree = "<group>"; };
 		43E5387D1D690FA000B87817 /* CustomBtn.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomBtn.swift; sourceTree = "<group>"; };
+		43E5387F1D693D7300B87817 /* SocialProject.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = SocialProject.entitlements; sourceTree = "<group>"; };
 		43E732741D68050B009865DB /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 		43F09FCD1D65876B00BB87FC /* SocialProject.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SocialProject.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43F09FD01D65876B00BB87FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -89,6 +90,7 @@
 		43F09FCF1D65876B00BB87FC /* SocialProject */ = {
 			isa = PBXGroup;
 			children = (
+				43E5387F1D693D7300B87817 /* SocialProject.entitlements */,
 				43E538761D69089A00B87817 /* Utility */,
 				43F09FE61D658A6A00BB87FC /* Controller */,
 				43F09FE51D658A6200BB87FC /* View */,
@@ -173,6 +175,12 @@
 				TargetAttributes = {
 					43F09FCC1D65876B00BB87FC = {
 						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 9JH877EXGC;
+						SystemCapabilities = {
+							com.apple.Keychain = {
+								enabled = 1;
+							};
+						};
 					};
 				};
 			};
@@ -383,6 +391,7 @@
 			baseConfigurationReference = 96EF0D116C3FB941AEC5FAF4 /* Pods-SocialProject.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialProject/SocialProject.entitlements;
 				INFOPLIST_FILE = SocialProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toolkitbase.SocialProject;
@@ -395,6 +404,7 @@
 			baseConfigurationReference = 564DA512609EF045E2AE3E5F /* Pods-SocialProject.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = SocialProject/SocialProject.entitlements;
 				INFOPLIST_FILE = SocialProject/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.toolkitbase.SocialProject;
